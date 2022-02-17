@@ -1,0 +1,24 @@
+.demo-button {
+  font-family: 'DM Sans',sans-serif;
+  cursor: pointer;
+  width: 279px;
+  height: 58px;
+  border-radius: 45px;
+  background-color: #fd435a;
+  box-shadow: 0 0 0 6px rgb(253 87 108 / 25%);
+  transition: box-shadow .2s,color .2s,background-color .2s;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  margin: 0;
+  &:hover {
+    box-shadow: 0 0 0 6px rgb(253 87 108 / 50%) !important;
+  }
+  a {
+    color: #fff;
+  }      
+}
