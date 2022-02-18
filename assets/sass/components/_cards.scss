@@ -248,6 +248,21 @@
       margin-bottom: 0;
     }
   }
+  .cardd {
+    @media (max-width: 520px) {
+      flex-direction: column;
+      text-align: center;
+      margin-right: auto;
+      margin-left: auto;
+      img {
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+  }
 }
 
 // Card-5

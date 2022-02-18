@@ -25,11 +25,14 @@ body {
   .hero {
     background-image: url(../imgs/hero.svg);
     background-size: cover;
-    min-height: 100vh;
+    min-height: 600px;
     background-position: center center;
     padding: 15rem 5rem;
     @media (max-width: 992px) {
       background-position: 40% 50%;
+    }
+    @media (min-width: 1367px) {
+      min-height: 100vh;
     }
     .heading {
       font-family: 'DM Sans',sans-serif;
@@ -38,6 +41,9 @@ body {
       line-height: 66px;
       font-weight: 700;
       text-transform: capitalize;
+      @media (max-width: 992px) {
+        font-size: 2.2rem;
+      }
     }
     .heading-2 {
       font-size: 1.2rem;
@@ -52,12 +58,19 @@ body {
       }
     }
     @media (max-width: 992px) {
+      padding: 15rem 0;
       .heading {
         line-height: 56px;
       }
       br {
         display: none;
       }
+    }
+    .demo-button {
+      margin-top: 40px;
+      text-transform: uppercase;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 
